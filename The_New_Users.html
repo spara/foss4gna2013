@@ -1,0 +1,520 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>The_New_Users</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+/* 
+   This document has been created with Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
+   Please leave this notice in place, along with any additional credits below.
+   ---------------------------------------------------------------
+   Title: Theme title
+   Author: Your name and optional url
+   Description: Basic description of the theme.
+*/
+
+body
+{
+    -webkit-font-smoothing:antialiased;
+    font:normal .8764em/1.5em Arial,Verdana,sans-serif;
+    margin:0
+}
+
+html>body
+{
+    font-size:13px
+}
+
+li
+{
+    font-size:110%
+}
+
+li li
+{
+    font-size:100%
+}
+
+li p
+{
+    font-size:100%;
+    margin:.5em 0
+}
+
+h1
+{
+    color:#000;
+    font-size:2.2857em;
+    line-height:.6563em;
+    margin:.6563em 0
+}
+
+h2
+{
+    color:#111;
+    font-size:1.7143em;
+    line-height:.875em;
+    margin:.875em 0
+}
+
+h3
+{
+    color:#111;
+    font-size:1.5em;
+    line-height:1em;
+    margin:1em 0
+}
+
+h4
+{
+    color:#111;
+    font-size:1.2857em;
+    line-height:1.1667em;
+    margin:1.1667em 0
+}
+
+h5
+{
+    color:#111;
+    font-size:1.15em;
+    line-height:1.3em;
+    margin:1.3em 0
+}
+
+h6
+{
+    font-size:1em;
+    line-height:1.5em;
+    margin:1.5em 0
+}
+
+body,p,td,div
+{
+    color:#111;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    word-wrap:break-word
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    line-height:1.5em
+}
+
+a
+{
+    -webkit-transition:color .2s ease-in-out;
+    color:#0d6ea1;
+    text-decoration:none
+}
+
+a:hover
+{
+    color:#3593d9
+}
+
+/*h2 em
+{
+    color:#111;
+    padding-left:10px;
+    text-shadow:0 1px 0 #FFF
+}*/
+
+blockquote p
+{
+  font-size:110%;
+  font-style:italic;
+  line-height:1.6em;
+}
+
+.footnote
+{
+    color:#0d6ea1;
+    font-size:.8em;
+    vertical-align:super
+}
+
+#wrapper img
+{
+    max-width:100%;
+    height:auto
+}
+
+dd
+{
+    margin-bottom:1em
+}
+
+li > p:first-child
+{
+    margin:0
+}
+
+ul ul,ul ol
+{
+    margin-bottom:.4em
+}
+
+caption,col,colgroup,table,tbody,td,tfoot,th,thead,tr
+{
+    border-spacing:0
+}
+
+table
+{
+    border:1px solid rgba(0,0,0,0.25);
+    border-collapse:collapse;
+    display:table;
+    empty-cells:hide;
+    margin:-1px 0 23px;
+    padding:0;
+    table-layout:fixed
+}
+
+caption
+{
+    display:table-caption;
+    font-weight:700
+}
+
+col
+{
+    display:table-column
+}
+
+colgroup
+{
+    display:table-column-group
+}
+
+tbody
+{
+    display:table-row-group
+}
+
+tfoot
+{
+    display:table-footer-group
+}
+
+thead
+{
+    display:table-header-group
+}
+
+td,th
+{
+    display:table-cell
+}
+
+tr
+{
+    display:table-row
+}
+
+table th,table td
+{
+    font-size:1.1em;
+    line-height:23px;
+    padding:0 1em
+}
+
+table thead
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-bottom:1px solid rgba(0,0,0,0.2)
+}
+
+table tbody
+{
+    background:rgba(0,0,0,0.05)
+}
+
+table tfoot
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-top:1px solid rgba(0,0,0,0.2)
+}
+
+figure
+{
+    display:inline-block;
+    margin-bottom:1.2em;
+    position:relative;
+    margin:1em 0
+}
+
+figcaption
+{
+    font-style:italic;    
+    text-align:center;
+    background:rgba(0,0,0,.9);
+    color:rgba(255,255,255,1);
+    position:absolute;
+    left:0;
+    bottom:-24px;
+    width:98%;
+    padding:1%;
+    -webkit-transition:all .2s ease-in-out;
+}
+
+figure:hover>figcaption
+{
+    /* background:rgba(0,0,0,1) */
+}
+
+/* Styles used when "Tab-indented text is poetry" is set */
+.poetry pre
+{
+    display:block;
+    font-family:Georgia, Garamond, serif!important;
+    font-size:110%!important;
+    font-style:italic;
+    line-height:1.6em;
+    margin-left:1em
+}
+
+.poetry pre code
+{
+    font-family:Georgia, Garamond, serif!important
+}
+
+/* important rules for keeping line-height from being affected by sub */
+sup,sub,a.footnote
+{
+    font-size:1.4ex;
+    height:0;
+    line-height:1;
+    position:relative;
+}
+
+sup {
+    vertical-align:super;
+}
+
+sub {
+    vertical-align: sub;
+    top: -1px;
+}
+
+p,h5
+{
+    font-size:1.1429em;
+    line-height:1.3125em;
+    margin:1.3125em 0
+}
+
+dt,th
+{
+    font-weight:700
+}
+
+table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd)
+{
+    background:rgba(255,255,255,0.06)
+}
+
+table tr:nth-child(even),table td:nth-child(even)
+{
+    background:rgba(0,0,0,0.06)
+}
+
+@media print {
+    /* print only styles. Keep it clean */
+    body
+    {
+        overflow:auto
+    }
+    img, pre, blockquote, table, figure, p {
+        page-break-inside: avoid
+    }
+    .footnotes { page-break-before: always }
+
+    #wrapper
+    {
+        background:#fff;
+        color:#303030;
+        font-size:85%;
+        padding:10px;
+        position:relative;
+        text-indent:0
+    }
+}
+
+@media screen {
+    /* Screen-only styles, including inverted styles */
+    .inverted #wrapper,.inverted {
+        background:rgba(37, 42, 42, 1)
+    }
+    .inverted hr {
+        border-color: rgba(51, 63, 64, 1) !important;
+    }
+    .inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted pre,.inverted code,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt
+    {
+        color:#eee!important
+    }
+    .inverted table tr:nth-child(odd), .inverted table th:nth-child(odd), .inverted table td:nth-child(odd) {
+      background: none;
+    }
+    .inverted a
+    {
+        color:rgba(172, 209, 213, 1);
+    }
+
+    #wrapper
+    {
+        padding:20px
+    }
+
+    /* styles for more colorful selection highlights */
+    ::selection { background:rgba(157, 193, 200,.5)}
+    h1::selection { background-color:rgba(45, 156, 208, .3)}
+    h2::selection { background-color:rgba(90, 182, 224, .3)}
+    h3::selection,
+    h4::selection,
+    h5::selection,
+    h6::selection,li::selection,ol::selection { background-color:rgba(133, 201, 232, .3)}
+    code::selection { background-color:rgba(0,0,0,.7);color:#eee}
+    code span::selection {background-color:rgba(0,0,0,.7) !important;color:#eee !important}
+    a::selection { background-color:rgba(255, 230, 102,.2)}
+    .inverted a::selection { background-color:rgba(255, 230, 102,.6)}
+	td::selection,th::selection,caption::selection { background-color: rgba(180, 237, 95, .5);}
+}
+
+
+</style>
+<style>#wrapper { max-width:900px; margin:0 auto }</style>
+</head>
+<body class="normal">
+  <div id="wrapper">
+      <h1 id="thenewusers">The New Users</h1>
+
+<p>Sophia Parafina<br/>
+Code For America<br/>
+2013 Fellow<br/>
+FOSS4G-NA 2013 </p>
+
+<h2 id="background">Background</h2>
+
+<p>Code for America is a non-profit with the mission to build a network of cities, citizens, community groups, and startups committed to re-imagining government for the 21st century. Code for America&#8217;s major programs are the Fellowship, the Accelerator, the Brigade, and the Peer Network. The Fellowship was the first of Code&#8217;s programs and it recruits developers, designers, and entrepreneurs to work with cities to develop solutions and apply technologies to make a difference. The Fellowship can be summarized as showing what is possible. The Accelerator program builds up civic startups by providing them with funding, business training and advice, and by providing them with a national platform for pitching their products and ideas. The Peer Network connects public servants with other forward thinking peers and business leaders. It encourages the exchange of ideas, solutions, best practices and even software code. The Brigade program encourages and provides a framework for local civil engagement. Civic technologists have a national network for remixing and reusing applications to promote openness in cities. Brigades are local chapters with the national reach back capabilities.</p>
+
+<h2 id="whatdowemake">What Do We Make?</h2>
+
+<p>Code for America makes applications for government. These applications range from simple applications such as <a href="https://github.com/codeforamerica/adopt-a-hydrant">adopta-a-hydrant</a> that allows citizens to &#8220;adopt&#8221; civic infrastructure, such as fire hydrants or tsunami siren to <a href="https://github.com/codeforamerica/blightstatus">BlightStatus</a> which helps cities and citizens manage information about properties in their neighborhood. Applications at Code for America are developed with an eye towards re-usability. For example, the adopt-a-hydrant has been successfully reimplemented as <a href="http://sirens.honolulu.gov/">Adopt-A-Siren</a>; an application where citizens report on the status of tsunami sirens in Hawaii.</p>
+
+<p><img src="./adopt-a-siren.png" alt="Adopt-A-Siren" /> <strong>Adopt-A-Siren implemented in Hawaii</strong></p>
+
+<p>Location is an important part of many projects. Maps are typically the first type of visualization used in civic applications. However, it&#8217;s important to note that location is just one of many data types used in a civic application This means that the map is not always the central focus for the application, but an interface to other data. Maps are means to organize information in a way that is meaningful and intuitive to users.</p>
+
+<p><img src="./blight-status_2.png" alt="BlightStatus" /> <strong>BlightStatus in New Orleans</strong></p>
+
+<p>In addition to applications that address specific civic needs, Code for America also builds geospatial games such as <a href="http://click-that-hood.com/">Click-that-Hood</a> which tests the player&#8217;s knowledge of neighborhoods across the globe. Users are also invited to <a href="https://github.com/codeforamerica/click_that_hood/wiki/How-to-add-a-city-to-Click-That-%E2%80%99Hood">add neighborhoods</a> from a city of their choice to the game</p>
+
+<p><img src="./click-that-hood.png" alt="Click-that-Hood" /> <strong>Click-that-Hood on Manhattan</strong></p>
+
+<h3 id="howgeospatialgetsused">How Geospatial Gets Used</h3>
+
+<p>The Code for America code base in <a href="http://github.com/codeforamerica">github</a> currently list 309 repositories. Searching through the repositories using geospatial related keywords shows that maps and spatial data are included in many applications.</p>
+
+<pre><code>keyword      frequency in code 
+
+map          5881  
+address      3616  
+zipcode      150  
+street       910  
+state        6314  
+lat          1752  
+lng          346  
+lon          1374  
+long         2533  
+coordinate   409  
+geojson      836  
+kml          890  
+</code></pre>
+
+<p>As expected, many projects use a map as display for information about assets, locations and people. <a href="http://github.com/codeforamerica/deepdish">Deepdish</a> is an application for viewing and searching Chicago&#8217;s health inspections on a map. <a href="https://github.com/codeforamerica/map_macon">MapMacon</a> is a simple site to show custom maps of Macon, Georgia.</p>
+
+<p>However, geospatial data also is used in a variety of ways that do not involve a map. The <a href="https://github.com/codeforamerica/broadband_map_ruby">broadband map ruby</a> project is a Ruby wrapper for the FCC Broadband Map API.</p>
+
+<pre><code># Provide all the wireless providers within a US census block given a passed latitude and longitude.
+BroadbandMap.wireless(:data_version =&gt; 'fall2010', :latitude =&gt; '38.0', :longitude =&gt; '-77.5')
+
+# Provide all the wireline providers within a US census block given a passed latitude and longitude.
+BroadbandMap.wireline(:data_version =&gt; 'fall2010', :latitude =&gt; '38.0', :longitude =&gt; '-77.5')
+
+# Returns rankings within nation by specific geo id
+ßßBroadbandMap.almanac_ranking_geo_id_within_nation({:data_version =&gt; 'fall2010', :census_metric_type =&gt; 'population', :ranking_metric =&gt; 'wirelineproviderequals0', :geography_type =&gt; 'county', :geography_id =&gt; '01101', :sort_order =&gt; 'asc'})
+</code></pre>
+
+<p>Another service oriented project is <a href="https://github.com/codeforamerica/amiinlv">amiinlv</a> which is a simple service that determines if a location is withing the Las Vegas city limits. In a rapidly growing city such as Las Vegas, it can be difficult to tell if a place is inside the city boundaries and if a citizen can access city services at that location. </p>
+
+<p>Code for America is deeply vested in promoting the idea of open data, which seeks to make data available to the public without restrictions. <a href="https://github.com/codeforamerica/geodata-checkout">Geodata-checkout</a> is a different take on a geodata portal. Instead of the typical search-for-data-by-map and display-download-links pattern of geospatial portal, <a href="http://historicchicago.herokuapp.com/#">geodata-checkout</a> lets the user draw a polygon around the area of interest and the data is available as KML or GeoJSON. In addition to downloads, the application can also display the data as an <a href="http://historicchicago.herokuapp.com/timeline?customgeo=51980be1269cdb0200000002">animated time line</a> of the features in the selected area.</p>
+
+<p><img src="./geodata-checkout.png" alt="Geodata-checkout" /> <strong>Animated time line in Geodata Checkout</strong></p>
+
+<p>Code for America projects address a wide range of civic challenges, with many of them containing a geospatial component. Applications have focused on display and search, providing geospatial data via services, and even cataloging and geoportal-like sites.</p>
+
+<h2 id="technologychoices">Technology Choices</h2>
+
+<h3 id="languages">Languages</h3>
+
+<p>Github statistics show that Javascript is the predominant language used in applications, which is not surprising because many of the applications are deployed as either a website or embedded into a website. Ruby is the second most popular language over Python which hash rapidly become the scripting language for manipulating geospatial data. This suggests that the focus is more on making use of geospatial services rather than manipulation of geospatial data. There is a distinct focus on user centered applications versus applications that perform geospatial functions.</p>
+
+<pre><code>Javascript          102
+Ruby                66
+Python              34
+PHP                 34
+Objective-C         4
+Java                2
+ActionScript        1
+CoffeeScript        1
+</code></pre>
+
+<h3 id="frameworks">Frameworks</h3>
+
+<p>Code for America applications use a variety of frameworks. Earlier applications make use of PHP and Drupal and some projects of Django and Python. More recently Ruby-On-Rails and node.js have become popular frameworks for authoring applications. This tends to reflect the rapid prototyping environment at Code for America where Fellows have less than a year to develop and deploy applications in their respective cities. Again, geospatial specific frameworks such as geodjango are not used.</p>
+
+<h3 id="services">Services</h3>
+
+<p>The primary departure of applications with a geospatial component is the lack of interest and will to deploy a full geospatial stack. Even tightly integrated stacks built for ease of deployment are over looked for services that provide highly customizable map tiles with thin javascript clients such as leaflet.js. In some ways, this represents the triumph of design over technology because of the recognition that applications with a map component are better received if they focus on a dedicated task rather than being a general purpose map client. Interest in web mapping interoperability has waned; because ff data is to be shared, it&#8217;s done by at the level of an Application Programming Interface (API) that returns the data in lightweight geospatial formats such as GeoJSON or KML. </p>
+
+<p>The clear winners in this shift are companies providing geospatial services in the form of customizable map tiles (currently raster tiles, but soon to include vector tile) and on line spatial functionality. Both <a href="http://mapbox.com">MapBox</a> and <a href="http://cartodb.com">CartoDB</a> fall into these categories. Google Maps inadvertently started the trend for using a mapping service and API. For many applications, Google Maps is the first stop in prototyping because of it&#8217;s mature API and attendant services such as geocoding and transportation routing. However, licensing may prove to be an incentive to move to platforms with less restrictive licensing. Developers pick and choose the services from the Google Maps API, eschewing the maps and using just the geocoding and routing functions. It&#8217;s important to note that CartoDB also offers geocoding as service and given their PostgreSQL/PostGIS backend, they could possibly offer routing services in the future.</p>
+
+<p>So what makes these applications different from mashups that overlay data on a map? First, these are applications that address a specific problem, it has a geospatial component, but the map is not the focus. Second, these civic applications are not intended to be one-off efforts, rather they are designed to be incorporated into the information technology architecture of a government body. Finally, design plays a larger part in these applications; developers are no longer satisfied to use default tiles and are requiring more customization in terms of map styles and design elements.</p>
+
+<h2 id="datadriven">Data Driven</h2>
+
+<p>One of the unexpected successes is the pairing of open source software with open data into a functioning business model. Like the US Census TIGER files before it, OpenStreet Map data is spurring business innovation but at a global scale. Custom OSM map tiles have become the defacto map layer for many high profile businesses such as FourSquare and Apple. Because services providing custom map tiles largely solve the problem of a basemap, developers and designers can focus on the application and the civic data. This has freed developers to use libraries and analytical tools outside the normal canon of both commercial and open source tool sets. </p>
+
+<p>Visualization libraries such as <a href="http://d3js.org/">d3.js</a> and statistical analysis packages such as <a href="http://www.r-project.org/">R</a> are becoming part of the standard tool set for on line mapping. In this <a href="http://www.mizmay.com/">example</a>, rental data is preprocessed in R and displayed using the Mapbox Service</p>
+
+<p><img src="./median_one_bedroom_rental.png" alt="Median_One_Room_Rent" /> <strong>Rent Affordability Gap Processed in R</strong></p>
+
+<p>Another new development is the implementation of map projections within the browser using the d3.geo projections. Although the utility of map projections may not be evident for large scale or local data in web mapping, they can be quite evident at regional scales.</p>
+
+<p><img src="./lambert_equal_area_azimuthal.png" alt="Lambert Equal Area Azimuthal" /> <strong>Lambert Equal Area Azimuthal</strong></p>
+
+<p>It&#8217;s important to note that these developments come from outside the traditional mapping industry and come from the disparate fields of data journalism and visualization. While the GIS industry continues to build yet another next generation Common Operation Picture application, geospatial applications have become commonplace and even expected method of communicating information.</p>
+
+<h2 id="whatsnext">What&#8217;s Next?</h2>
+
+<p>The trend towards single page applications with integrated services will continue for reasons of simplicity and ease of maintenance. This means an increase in geospatial services offerings such as:</p>
+
+<ul>
+<li>gecoding solutions</li>
+<li>multimodal routing (car, transit, bicycle, walking)</li>
+<li>administrative (e.g. what county, city, zipcode, census tract, voting district)</li>
+<li>aerial imagery</li>
+<li>satellite imagery</li>
+<li>subsurface water and mineral rights</li>
+<li>utility right of ways</li>
+<li>weather</li>
+</ul>
+
+<p>The list could go on, but geocoding and routing are the services needed most. This particular design pattern for geospatial applications will continue to erode the need for deploying geospatial stacks and geoportal applications. </p>
+    </div>
+</body>
+</html>
